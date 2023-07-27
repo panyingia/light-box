@@ -9,24 +9,37 @@
 </head>
 
 <body>
-    <div id="gallery">
-        <img src="./images/image-product-1.jpg" alt="" id="gallery-img">
-    </div>
-    <div class="thumb-set">
-        <div class="thumb">
-            <img src="./images/image-product-1-thumbnail.jpg" data-img="0" alt="">
-        </div>
-        <div class="thumb">
-            <img src="./images/image-product-2-thumbnail.jpg" data-img="1" alt="">
-        </div>
-        <div class="thumb">
-            <img src="./images/image-product-3-thumbnail.jpg" data-img="2" alt="">
-        </div>
-        <div class="thumb">
-            <img src="./images/image-product-4-thumbnail.jpg" data-img="3" alt="">
+    <div class="main">
+        <div class="overlay">
+            <div id="gallery">
+                <img src="./images/image-product-1.jpg" alt="" id="gallery-img">
+                <div class="switch-btn prev-btn">
+                    <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="switch-btn next-btn">
+                    <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="thumb-set">
+                <div class="thumb">
+                    <img src="./images/image-product-1-thumbnail.jpg" data-img="0" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="./images/image-product-2-thumbnail.jpg" data-img="1" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="./images/image-product-3-thumbnail.jpg" data-img="2" alt="">
+                </div>
+                <div class="thumb ">
+                    <img src="./images/image-product-4-thumbnail.jpg" data-img="3" alt="">
+                </div>
+            </div>
         </div>
     </div>
     <script src="./app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
